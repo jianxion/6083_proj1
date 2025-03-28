@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FH_RENTAL_FH_CUSTOMER_FK" directorySegmentName="seg_0" id="C5CCF760-DB57-3A00-90A1-BCE8D11B9E3C">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>84FF1A99-EB6B-BABA-8056-5851D2598C1A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<sourcePk>BA861CCE-D7FB-8C7E-95A7-B1BB896BD573</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>330E38A1-3FEA-7DBB-F965-720793D5DE20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5E0C4041-4E64-2D3B-EFA0-1E07D0933AF9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

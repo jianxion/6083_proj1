@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7435E632-08A3-A21D-E0DA-88EC0F9206F3" containerWithKeyObject="F82467C3-4DB1-BA6B-14AD-E20598AF98E1" localFKIndex="524935E6-73A6-10A8-81F5-536F10F30DFF" name="ORGANIZATION_SPONSOR_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>7A85FA59-040D-B7A9-0DDD-B3F2B736FAB3</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<referredTableLongName>HZS_SPONSOR</referredTableLongName>
+<arc>0CE684D0-E9FE-3BA7-038F-D1E1F9CD5712</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FEAEEBE6-7BC7-6154-6282-635508AAB5A4</referredTableID>
+<keyObject>9E70E371-9FDF-157B-B901-223BB83E828C</keyObject>
+<referredKeyID>9E70E371-9FDF-157B-B901-223BB83E828C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SPONSOR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>O</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

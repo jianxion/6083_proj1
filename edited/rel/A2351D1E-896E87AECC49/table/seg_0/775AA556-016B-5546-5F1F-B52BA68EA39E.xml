@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="775AA556-016B-5546-5F1F-B52BA68EA39E" name="HZS_BOOK_AUTHOR">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>75E854C1-EA85-356F-7825-E96C6C214619</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOK_ID" id="6780615D-D6D1-FD25-F4B9-096533215828">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the book.]]></commentInRDBMS>
+<generatorID>1091382A-36BC-9A64-C41C-D83CE0A17E04</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D383F1D-8322-5FC8-C6DC-0D66843D99F3" referredColumn="045DB9F0-8BDA-695D-2ED8-A44F74D3CF07"/>
+</associations>
+</Column>
+<Column name="AUTHOR_ID" id="FB2F710A-5445-F5BF-A628-FCDB58BE1425">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the author.]]></commentInRDBMS>
+<generatorID>2A10B63B-E91C-1BE7-1D54-FD4C553D1317</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B43847D-FF14-D403-BDD4-38F2824766F1" referredColumn="9AAA84CD-413B-DC5E-9330-3690CE3B08EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42D9BD15-23A5-329D-37CD-48977113BDB0" name="HZS_BOOK_AUTHOR_PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>9F59F875-5918-240D-E418-788AE0D21E43</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2F710A-5445-F5BF-A628-FCDB58BE1425"/>
+<colUsage columnID="6780615D-D6D1-FD25-F4B9-096533215828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC2CED00-7E68-CD35-2D51-F8420664D1F4" name="BOOK_AUTHOR_BOOK_FK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>3CDB9827-9027-F9C8-1392-EC28522CA9BA</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6780615D-D6D1-FD25-F4B9-096533215828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41950914-D9F5-8198-8CA4-06EA2EC52F9A" name="BOOK_AUTHOR_AUTHOR_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>787D37E3-2543-D864-BC60-0DD13136C7B9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2F710A-5445-F5BF-A628-FCDB58BE1425"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

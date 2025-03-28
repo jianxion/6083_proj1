@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HZS_INDIVIDUAL" directorySegmentName="seg_0" id="38BB77D0-1614-E133-8814-EC06AF331ED1">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="L_NAME" id="3C5965D3-3E1C-31C7-F315-79B65A3D0CDD">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="F_NAME" id="6A4D8C64-92A0-4523-2933-676AB37CA6CE">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPONSOR_ID" id="80AE78C7-10E9-BDC8-83E3-2B1FD35B02A8">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HZS_INDIVIDUAL_HZS_SPONSOR_FK" id="163E7A34-3B73-15BF-8FC3-C727D4E2CD41">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HZS_INDIVIDUAL_PK" id="0B04BE0A-BC98-3B41-1A8E-148904AE3E76">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

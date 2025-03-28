@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HZS_EVENT" directorySegmentName="seg_0" id="0B039244-5B73-C26C-4207-16A474D3552A">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="E_NAME" id="5EEC8796-CDAC-E55C-80B3-7AC9DD9E2C6F">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOPIC" id="70467DCB-0C31-450C-48E0-2DE99C64C04A">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-27 16:58:04 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATETIME" id="9FEF1BD4-1668-CB3F-D29F-F477D1563AC5">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENT_ID" id="B17CA864-FFA2-7844-3E05-BF928F3E4010">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENT_TYPE" id="B78A13AD-B199-BAEC-6674-CE0B61474831">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STOP_DATETIME" id="DDDC765B-8C6B-B2DE-D90C-7527B51C2898">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HZS_EVENT_PK" id="38F2644B-A873-22B7-B5EC-8A453CC52CD0">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF0337B7-0CF6-23C3-57A5-CC99CEB8D9D5" name="HZS_EXHIBITION">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>1FC5942A-3EEB-A588-0B84-407D993AD2EA</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENT_ID" id="46C1C799-F5C1-58F5-7E5A-1252996156BA">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<generatorID>FE6EEA71-C1B4-D364-C0E5-5A8FFAAA3382</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC73011A-F2B7-8256-777C-E1B8E6FAA322" referredColumn="B17CA864-FFA2-7844-3E05-BF928F3E4010"/>
+</associations>
+</Column>
+<Column name="EXPENSE" id="6813B8C0-E8E2-529C-088C-2148408C654F">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Expense of an exhibition.]]></commentInRDBMS>
+<generatorID>4766AAF3-DFD9-E3CD-6C3E-FD2CCAC1B1A2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9EBE98F-5AF1-0B89-DF11-1A6B8B132D14" name="HZS_EXHIBITION_PKv1">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<generatorID>BF279328-A5CF-C6C1-668C-9317EA07721A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46C1C799-F5C1-58F5-7E5A-1252996156BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84B6C829-9552-F593-4C5A-7BF0D2F05722" name="HZS_EXHIBITION_HZS_EVENT_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>1DA9B6B2-87F2-BB31-57A7-934A6595D1A7</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46C1C799-F5C1-58F5-7E5A-1252996156BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

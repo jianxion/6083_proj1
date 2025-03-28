@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HZS_ORGANIZATION" directorySegmentName="seg_0" id="F82467C3-4DB1-BA6B-14AD-E20598AF98E1">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ORG_NAME" id="51D90368-E91D-BCB5-1FD7-A8A055AFAD9E">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPONSOR_ID" id="58DCB7F1-2B0E-4DA5-4ED7-070FFA7A191C">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HZS_ORGANIZATION_HZS_SPONSOR_FK" id="524935E6-73A6-10A8-81F5-536F10F30DFF">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HZS_ORGANIZATION_PK" id="35DFCAD8-550C-ACE1-D77E-259A38B6288C">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

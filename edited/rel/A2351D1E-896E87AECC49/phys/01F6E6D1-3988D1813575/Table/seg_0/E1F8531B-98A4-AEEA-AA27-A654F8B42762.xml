@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HZS_CUSTOMER" directorySegmentName="seg_0" id="E1F8531B-98A4-AEEA-AA27-A654F8B42762">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="04ACF4D4-9DDF-4124-0924-50DB4DA02CE1">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_NUM" id="0D858371-6FB6-1C7A-15B8-51773B10B047">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="20E88621-E4F7-0972-AF85-CCCF728752C4">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="F_NAME" id="4C4DA4CF-CF3E-1DC2-CD95-64E81CF08077">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TYPE" id="DDF03566-63F4-FD56-7DA6-B1A41CFAD960">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="F21C4319-5A97-11E0-29E1-53BBD1B95C25">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="L_NAME" id="FF36493E-36DF-B871-15BC-12F73547C94D">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HZS_CUSTOMER_PK" id="82C39B74-82F0-1F87-D333-26279599C998">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

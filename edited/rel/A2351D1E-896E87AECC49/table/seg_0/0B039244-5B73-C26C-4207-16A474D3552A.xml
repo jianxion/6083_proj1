@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B039244-5B73-C26C-4207-16A474D3552A" name="HZS_EVENT">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>12BFF2B5-6F6C-CE88-8FE2-C50A4DEBD54F</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENT_ID" id="B17CA864-FFA2-7844-3E05-BF928F3E4010">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>FE6EEA71-C1B4-D364-C0E5-5A8FFAAA3382</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_NAME" id="5EEC8796-CDAC-E55C-80B3-7AC9DD9E2C6F">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>21DC2338-AE5A-FA99-E847-2CB6B9B8C36A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENT_TYPE" id="B78A13AD-B199-BAEC-6674-CE0B61474831">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Seminar or Exhibition]]></commentInRDBMS>
+<generatorID>74030E03-2E4D-4F8C-203E-2E96D93C0CC2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<constraintName>CH_INH_HZS_EVENT</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="E" description="entity HZS_EXHIBITION"/>
+<valueDef value="S" description="entity HZS_SEMINAR"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="START_DATETIME" id="9FEF1BD4-1668-CB3F-D29F-F477D1563AC5">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>3D7AE288-912C-D6D1-F83C-DDB08F4215C6</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOP_DATETIME" id="DDDC765B-8C6B-B2DE-D90C-7527B51C2898">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>5AAFAF30-D888-A100-1031-3192173E1026</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOPIC" id="70467DCB-0C31-450C-48E0-2DE99C64C04A">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-26 23:22:16 UTC</createdTime>
+<generatorID>5C6B756C-D8C8-96BC-106B-9AD87BA57CD5</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38F2644B-A873-22B7-B5EC-8A453CC52CD0" name="HZS_EVENT_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>BF279328-A5CF-C6C1-668C-9317EA07721A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B17CA864-FFA2-7844-3E05-BF928F3E4010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

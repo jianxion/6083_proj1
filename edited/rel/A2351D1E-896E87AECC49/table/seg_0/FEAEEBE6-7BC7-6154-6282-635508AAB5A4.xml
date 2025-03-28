@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEAEEBE6-7BC7-6154-6282-635508AAB5A4" name="HZS_SPONSOR">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>DE0B2E64-5C9C-0535-B7E1-1EAE727406B0</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPONSOR_ID" id="0C4AAF8C-DB2B-9F33-B86E-EA3B501CAA85">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the sponsor.]]></commentInRDBMS>
+<generatorID>6F0B7D7B-E262-A9BD-E9E4-D060D5C2CFB5</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPONSOR_TYPE" id="9AEB9966-159B-1BFD-BFBD-6186AA787EAC">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The type of sponsor (Individual or Organization).]]></commentInRDBMS>
+<generatorID>F5A07DCC-A672-4E23-64D3-F54F7BFA0163</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<constraintName>CH_INH_HZS_SPONSOR</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="I" description="entity HZS_INDIVIDUAL"/>
+<valueDef value="O" description="entity HZS_ORGANIZATION"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E70E371-9FDF-157B-B901-223BB83E828C" name="HZS_SPONSOR_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>2DAD4EFA-EE77-013D-DA59-1A748340BA5A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C4AAF8C-DB2B-9F33-B86E-EA3B501CAA85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

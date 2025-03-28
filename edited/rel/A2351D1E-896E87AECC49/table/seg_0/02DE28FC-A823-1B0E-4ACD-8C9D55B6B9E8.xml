@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02DE28FC-A823-1B0E-4ACD-8C9D55B6B9E8" name="HZS_SEMINAR_ACCESS">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>79AD886C-6733-EF29-5876-725B27497398</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVITATION_ID" id="6AFB119D-C6BB-CECB-980D-0E5261EBC524">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the invitation.]]></commentInRDBMS>
+<generatorID>439D1E5F-9E18-FA93-EEEB-D5D261F71641</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTHOR_ID" id="28F40E7F-AB53-93B0-DCCC-899276932408">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the author.]]></commentInRDBMS>
+<generatorID>7A7C360D-4C0B-D726-C2F8-246ABDFC8664</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A10BC4F-8993-10B5-AF85-365C84DD9A5F" referredColumn="9AAA84CD-413B-DC5E-9330-3690CE3B08EC"/>
+</associations>
+</Column>
+<Column name="EVENT_ID" id="B3C09865-1DEB-1E32-444F-0152643D07A7">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-27 00:17:41 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4869B3D-AC9F-5663-05E6-7B9CD49C1BDC" referredColumn="ADC2DF56-D236-529C-9311-3E5B06FEA9BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D15223C-24AC-B820-9D18-B2DD46EC35A5" name="HZS_SEMINAR_ACCESS_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>06560E04-6BF1-8217-659B-78F612E0B10D</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AFB119D-C6BB-CECB-980D-0E5261EBC524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E06496B4-8EB3-1B3B-C64F-8178108EDED2" name="SEMINAR_AUTHOR_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>6F487A02-5964-0C9E-02A8-981190121EDD</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28F40E7F-AB53-93B0-DCCC-899276932408"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EF77C87-6C91-23DA-FF99-D36143670AF6" name="SEMINAR_ACCESS_SEMINAR_FK">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-27 00:19:00 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3C09865-1DEB-1E32-444F-0152643D07A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

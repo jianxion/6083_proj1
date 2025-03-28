@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FH_BOOK_AUTHOR_FH_AUTHOR_FK" directorySegmentName="seg_0" id="787D37E3-2543-D864-BC60-0DD13136C7B9">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>3096C86D-FC09-1843-1806-1BD0D46AF8EE</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<sourcePk>D95545AD-23EE-E41D-1391-167B5B8E575C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EA77F2B-DE24-9448-6625-5D8CF4CB85AA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75E854C1-EA85-356F-7825-E96C6C214619</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

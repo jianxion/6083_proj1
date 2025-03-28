@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30AD74D3-2876-1766-27AC-51DC1A959C8A" name="HZS_AUTHOR">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>6EA77F2B-DE24-9448-6625-5D8CF4CB85AA</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AUTHOR_ID" id="9AAA84CD-413B-DC5E-9330-3690CE3B08EC">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the author.]]></commentInRDBMS>
+<generatorID>C82F22D3-CFD0-FF2C-8172-24E9435F2EAF</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_NAME" id="6D48498E-3650-2FF7-D145-E1434DB27930">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the author.]]></commentInRDBMS>
+<generatorID>4ADC632D-D109-CF6A-3004-E91D9BBCEE31</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="L_NAME" id="E21C9249-7FCA-1D6A-E166-672951FBEFBC">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the author.]]></commentInRDBMS>
+<generatorID>8CB28D24-FE20-211D-0092-27A4733F4893</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="5BDA00BE-EBBE-2D55-B870-6D81D5C08955">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contact email of the author.]]></commentInRDBMS>
+<generatorID>8E024B22-857A-DE10-30E9-1666B954E197</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="6F220231-F45A-047E-4C0E-C215C0A4230D">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[State of residence of the author.]]></commentInRDBMS>
+<generatorID>D27BD861-06FF-A6B7-4EC6-8E7F48945037</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="8C8D732E-18AA-FDF0-E9D1-35CE2D6C189E">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country of residence of the author.]]></commentInRDBMS>
+<generatorID>8BFA9878-EAAA-1D5B-A985-BA26DAB78DDD</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET" id="12A08CD2-B6AC-535F-6ED6-A7869E0BC04F">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Street address of the author.]]></commentInRDBMS>
+<generatorID>4722E60F-2C14-77BE-7C4F-612F5EB57336</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="D5EE3555-47D9-7DFD-9491-F17C45D784D9">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[City of residence of the author.]]></commentInRDBMS>
+<generatorID>91183E73-546B-9C8F-F06B-94EB837BAC76</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03C1EA73-C4C6-1BAD-72FF-111E7C827687" name="HZS_AUTHOR_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>D95545AD-23EE-E41D-1391-167B5B8E575C</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AAA84CD-413B-DC5E-9330-3690CE3B08EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

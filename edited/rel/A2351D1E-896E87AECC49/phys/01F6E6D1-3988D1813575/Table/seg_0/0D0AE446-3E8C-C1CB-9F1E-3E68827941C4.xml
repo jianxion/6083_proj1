@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HZS_BOOK" directorySegmentName="seg_0" id="0D0AE446-3E8C-C1CB-9F1E-3E68827941C4">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOOK_ID" id="045DB9F0-8BDA-695D-2ED8-A44F74D3CF07">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOPIC" id="6857E803-4E6D-C915-79D2-645126EBE5CB">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="B_NAME" id="B9A5D188-4DE4-4D15-A657-BF11FA267948">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HZS_BOOK_PK" id="802D6717-F538-754C-210C-CA57ED09E3B7">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

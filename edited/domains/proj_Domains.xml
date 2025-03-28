@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="proj_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="0CAD3871-8B8C-8883-E0EC-C5A5D9C6170B">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="2B2D6445-4003-AD9C-99D4-DF7D1282A7EE">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="48FE526D-95BB-7F0F-3D84-EDF52A379373">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="5DDF5F8D-3572-0043-0C12-880C260288DF">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="853286BA-6F7F-48E8-6509-D2E7078449BC">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="8F2B8E29-3C7C-5B50-F4F9-D49FEF573DE5">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="9368DC18-46CB-7DF8-48DA-D992C70CCB02">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_10_2_0" id="B3AB179E-F7DF-51CC-5BE4-1BD13CD6FA68">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 17:59:57 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>proj_Domains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4A79405-3415-F5E6-B488-4F94A7976AB1" name="HZS_INDIVIDUAL">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 15:59:51 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DE0B2E64-5C9C-0535-B7E1-1EAE727406B0</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>I</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="F_NAME" id="EEF73335-5AD4-9A70-75E4-81699C23FB1F">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:03:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the individual sponsor.]]></commentInRDBMS>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="L_NAME" id="92A47876-107B-4E28-9848-6207DC814D0D">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:04:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the individual sponsor.]]></commentInRDBMS>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

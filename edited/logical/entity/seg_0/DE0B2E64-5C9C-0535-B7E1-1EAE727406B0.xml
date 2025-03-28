@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE0B2E64-5C9C-0535-B7E1-1EAE727406B0" name="HZS_SPONSOR">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>87593515-1BCB-2202-FEF1-694CE59A276A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>F5A07DCC-A672-4E23-64D3-F54F7BFA0163</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SPONSOR_ID" id="6F0B7D7B-E262-A9BD-E9E4-D060D5C2CFB5">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the sponsor.]]></commentInRDBMS>
+<generatorID>3A7073DA-57DE-31A7-4653-412BB366A825</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPONSOR_TYPE" id="F5A07DCC-A672-4E23-64D3-F54F7BFA0163">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The type of sponsor (Individual or Organization).]]></commentInRDBMS>
+<generatorID>8A24E3AB-9B8D-9BDE-E77D-988873D7ADD6</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2DAD4EFA-EE77-013D-DA59-1A748340BA5A" name="FH SPONSOR PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>0966B3DA-CAFA-2907-5265-C8DBF406ED9C</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F0B7D7B-E262-A9BD-E9E4-D060D5C2CFB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

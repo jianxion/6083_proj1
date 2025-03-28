@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BC49EED-2860-A540-C3A3-ADD9C780A81B" name="HZS_ROOM_RESERVATION">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>98024C16-F245-C45E-F51D-DB894E386103</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESERVATION_ID" id="D5DECD66-E011-D1CE-5D03-D3065669EC54">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the room reservation.]]></commentInRDBMS>
+<generatorID>60A40313-909A-4DE4-7F88-6EAF389672A2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOPIC_DESCRIPTION" id="6C63A21C-C465-BE5F-096E-57830E1CEF73">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[A brief description of the study topic for the reservation.]]></commentInRDBMS>
+<generatorID>3B35975E-2436-BA43-249A-E4B84D040CB5</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE" id="773425E3-C6AF-9E7E-F5F1-8D3F2BB20C93">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date on which the study room is reserved.]]></commentInRDBMS>
+<generatorID>A81510A3-96EC-F9FD-5B7D-C2A46ACE43BE</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_TIME" id="2684E2B7-8B51-7CFB-61D0-EEA7E6E3F4BF">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The start time of the study room reservation.]]></commentInRDBMS>
+<generatorID>B3CF9974-31FD-6FEB-D933-C59099FA1248</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_TIME" id="49C3E17E-8168-D9B2-3E63-3D7C68C16F17">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The end time of the study room reservation.]]></commentInRDBMS>
+<generatorID>83721E45-7886-E2BA-4947-11EAAC0F39DC</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GROUP_SIZE" id="456B303A-CF47-3E53-9776-125839FB21E1">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The total number of people in the group reservation.]]></commentInRDBMS>
+<generatorID>FF4E1436-500A-1725-D46A-ACC0A71794BE</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="4DE1C2FF-CA1B-108B-B5A6-F06C2EA3B788">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the customer.]]></commentInRDBMS>
+<generatorID>D8AEC321-0993-5E3E-5BD8-2D0A529FFB6E</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAD7F074-EBA9-5141-F1DF-E9EB86F66CA8" referredColumn="F21C4319-5A97-11E0-29E1-53BBD1B95C25"/>
+</associations>
+</Column>
+<Column name="ROOM_ID" id="028B46C2-3268-3B84-FF96-945F453F68E8">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the room.]]></commentInRDBMS>
+<generatorID>16230ABF-B4AA-585F-1B89-2FE3E7FE9141</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E26BFCAF-4417-94C0-D0B4-26EAF1188597" referredColumn="0721BD83-B0E7-F4BB-D1CB-82F0F9E41400"/>
+</associations>
+</Column>
+<Column name="L_NAME" id="9EB14C85-B220-5BDF-2564-B63CC38A8A94">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the person who made the reservation.]]></commentInRDBMS>
+<generatorID>A2AA5709-145D-4F14-29DA-6358F46917CC</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_NAME" id="27DE8A4F-336F-284B-5E93-524EBB9A9B9B">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the person who made the reservation.]]></commentInRDBMS>
+<generatorID>E6A71C1A-0B46-9433-3847-488DB5B4F8A7</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA6D2B9C-3F8E-67CA-1FB7-F4C83E54F085" name="HZS_ROOM_RESERVATION_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>AA906548-8980-C51F-6B44-FEA8D2D8EF38</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5DECD66-E011-D1CE-5D03-D3065669EC54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35F45EAD-E9FD-8976-7F6C-82145E3CBDBC" name="RESERVATION_CUSTOMER_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>80C671C1-33B6-9EFF-41E5-32F35A32A16C</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DE1C2FF-CA1B-108B-B5A6-F06C2EA3B788"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13E2A250-A19E-63F3-2F9F-A4A0AC51EDBF" name="RESERVATION_STUDY_ROOM_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>6EBFC011-C786-E3B2-10DD-52F6F15E3369</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="028B46C2-3268-3B84-FF96-945F453F68E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

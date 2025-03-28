@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="178985D4-C7EA-D9AF-BFE9-D5D20E23B2DD" name="HZS_STUDY_ROOM">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>12A42786-F673-4C2F-DCEE-3BE25B30A320</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROOM_ID" id="0721BD83-B0E7-F4BB-D1CB-82F0F9E41400">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the room.]]></commentInRDBMS>
+<generatorID>139CB912-A8B0-4B7A-193C-FF7C03F04C3E</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACITY" id="8D54B0F7-CEF1-C0C7-1A36-D80606EC3DC6">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The maximum number of people the room can hold.]]></commentInRDBMS>
+<generatorID>5F32E986-914D-35AE-ACC4-1E7BACC7D502</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4472E99D-87FE-A893-C48B-5F733E24E9FE" name="HZS_STUDY_ROOM_PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>E34F6BA0-E2B7-926E-6CED-345B6BCC21F0</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0721BD83-B0E7-F4BB-D1CB-82F0F9E41400"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

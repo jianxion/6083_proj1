@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38BB77D0-1614-E133-8814-EC06AF331ED1" name="HZS_INDIVIDUAL">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<generatorID>F4A79405-3415-F5E6-B488-4F94A7976AB1</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPONSOR_ID" id="80AE78C7-10E9-BDC8-83E3-2B1FD35B02A8">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the sponsor.]]></commentInRDBMS>
+<generatorID>6F0B7D7B-E262-A9BD-E9E4-D060D5C2CFB5</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7471E11-F1E3-A4C0-DCA6-2937E57CE319" referredColumn="0C4AAF8C-DB2B-9F33-B86E-EA3B501CAA85"/>
+</associations>
+</Column>
+<Column name="F_NAME" id="6A4D8C64-92A0-4523-2933-676AB37CA6CE">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the individual sponsor.]]></commentInRDBMS>
+<generatorID>EEF73335-5AD4-9A70-75E4-81699C23FB1F</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="L_NAME" id="3C5965D3-3E1C-31C7-F315-79B65A3D0CDD">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the individual sponsor.]]></commentInRDBMS>
+<generatorID>92A47876-107B-4E28-9848-6207DC814D0D</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B04BE0A-BC98-3B41-1A8E-148904AE3E76" name="HZS_INDIVIDUAL_PK">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<generatorID>2DAD4EFA-EE77-013D-DA59-1A748340BA5A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80AE78C7-10E9-BDC8-83E3-2B1FD35B02A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="163E7A34-3B73-15BF-8FC3-C727D4E2CD41" name="HZS_INDIVIDUAL_HZS_SPONSOR_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>82FC2A0B-715C-F7D7-FDC7-06608729DB5F</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80AE78C7-10E9-BDC8-83E3-2B1FD35B02A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

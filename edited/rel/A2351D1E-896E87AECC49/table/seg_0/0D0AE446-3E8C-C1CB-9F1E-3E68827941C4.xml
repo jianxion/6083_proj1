@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D0AE446-3E8C-C1CB-9F1E-3E68827941C4" name="HZS_BOOK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>FB1F8744-9D3A-2EF9-9C4F-8DACAEDF1442</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOK_ID" id="045DB9F0-8BDA-695D-2ED8-A44F74D3CF07">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the book.]]></commentInRDBMS>
+<generatorID>92A999DF-91BC-3165-4427-85764D0058A3</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_NAME" id="B9A5D188-4DE4-4D15-A657-BF11FA267948">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The name of the book.]]></commentInRDBMS>
+<generatorID>DD66E0E0-36FD-5C5B-E980-22634B9A10D7</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOPIC" id="6857E803-4E6D-C915-79D2-645126EBE5CB">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The topic category of the book.]]></commentInRDBMS>
+<generatorID>31B1130A-F291-7E9A-C6C7-BC75DDC619A9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="802D6717-F538-754C-210C-CA57ED09E3B7" name="HZS_BOOK_PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>9F13FDFE-CAC8-63DC-A48D-91C1F2635FA2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="045DB9F0-8BDA-695D-2ED8-A44F74D3CF07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63C6323B-A012-2DBD-39B9-4EC23AF1FF47" name="HZS_RENTAL">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>5E0C4041-4E64-2D3B-EFA0-1E07D0933AF9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RENTAL_ID" id="5ED8779D-C136-073B-5FB0-DB7A35CB269B">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>1E33A7E7-9DBB-3650-3DF1-0C5E892382AE</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RENTAL_STATUS" id="4FBAE138-7970-F9EC-20FA-59ACCA46AF93">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>AA748224-623B-D180-A0EC-83F145A9DD4B</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROW_DATE" id="6107F066-161D-BD16-7322-B1304453810A">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>57FFEB4B-1496-887D-A20C-BDADD20BCF15</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPECTED_RETURN_DATE" id="4E804355-BFB5-8445-7BDB-7ABCAEBDABB9">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>BADCCD81-7478-717D-AB54-DB5E83F8E129</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTUAL_RETURN_DATE" id="F5112503-D942-4970-561E-9E41311515D0">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>3ED8E58A-EB6F-F2C4-119E-BC3FE0AF2951</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="FD92D01F-C519-FBF4-2E42-452BFEBF71F6">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>9126E985-4E88-0406-8481-6D9CE3A6E16C</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C885D5FB-8A93-5F21-0DC2-37775DB189E5" referredColumn="F21C4319-5A97-11E0-29E1-53BBD1B95C25"/>
+</associations>
+</Column>
+<Column name="COPY_ID" id="3C5988F5-1211-A301-C093-CAC99B23A707">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-26 23:22:16 UTC</createdTime>
+<generatorID>BD6781E4-F287-30EB-6E7C-E870E56A85D4</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11621F6E-9734-27C4-88DE-BA1A7470A098" referredColumn="B8C8CD00-E0C5-E0D3-F1D0-1D69930DC973"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E15449E-F6C2-8D6B-A01D-AD712F598207" name="HZS_RENTAL_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>284059A6-59F0-FA77-6C14-527E1E027E59</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ED8779D-C136-073B-5FB0-DB7A35CB269B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E729507-65CA-8329-67D7-34AD44A55E8E" name="HZS_RENTAL_HZS_CUSTOMER_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>C5CCF760-DB57-3A00-90A1-BCE8D11B9E3C</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD92D01F-C519-FBF4-2E42-452BFEBF71F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="398217BB-885A-481B-7238-003F3B5AFC13" name="HZS_RENTAL_HZS_BOOK_COPY_FK">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-26 23:22:16 UTC</createdTime>
+<generatorID>366B4216-EB6D-F4D6-5EAC-42A4EACFFC42</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C5988F5-1211-A301-C093-CAC99B23A707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

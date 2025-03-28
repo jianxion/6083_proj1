@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64E9E230-0ADB-0966-84E2-789C8B5047D0" name="HZS_PAYMENT">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>337982DC-BBFC-44B2-145C-09B2C4216730</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAYMENT_ID" id="4DEBF9D4-C73D-D993-A163-7D86601E9A27">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the payment transaction.]]></commentInRDBMS>
+<generatorID>8A71BB82-B96A-0E45-81D5-EAE4C80A393D</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYMENT_DATE" id="3C26FC5A-40D6-E21F-2522-F17B119E081F">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date when the payment was made.]]></commentInRDBMS>
+<generatorID>6254E21C-45BB-5BFF-3A77-002B4F924228</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METHOD" id="8F2EA5FD-538A-A4BE-C9E9-D4E1E0EA76AA">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment method used (Cash, Credit, Debit, PayPal).]]></commentInRDBMS>
+<generatorID>832088EF-39E8-D285-AADF-977F87EDF6A8</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARD_HOLDER_L_NAME" id="75F31EF9-F880-E384-B9A3-C4FF87ECE972">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the cardholder.]]></commentInRDBMS>
+<generatorID>EA8CE0F3-B897-5165-35EA-0232B67C42C5</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARD_HOLDER_F_NAME" id="920A8CCE-BA80-10E4-916A-24DDB999B1CA">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 00:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the cardholder.]]></commentInRDBMS>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMOUNT" id="04AA4FD4-DD5E-370D-82CF-DF7543198107">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The amount paid in the transaction.]]></commentInRDBMS>
+<generatorID>48C48797-4460-F64E-A533-7964B864735F</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="CBAF5AC6-54FB-054A-20EA-83548E6B283D">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 15:17:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the invoice.]]></commentInRDBMS>
+<generatorID>F6F7B96B-8840-3F15-4651-003E97F929F9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<referedAttribute>5E3B307E-36E9-080A-1AD1-53BDB259716C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B9E3C92-63E3-4488-75AA-51EFEBA01F95" name="FH PAYMENT PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>B459A3DC-1FEC-4386-B4AF-5A3B9742EE9A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DEBF9D4-C73D-D993-A163-7D86601E9A27</attributeRef>
+<attributeRef>CBAF5AC6-54FB-054A-20EA-83548E6B283D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

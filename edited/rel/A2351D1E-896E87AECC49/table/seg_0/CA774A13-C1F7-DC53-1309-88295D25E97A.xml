@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA774A13-C1F7-DC53-1309-88295D25E97A" name="HZS_BOOK_COPY">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>02C7861C-2975-D786-745D-C87468F7BF18</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COPY_ID" id="B8C8CD00-E0C5-E0D3-F1D0-1D69930DC973">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of each book copy.]]></commentInRDBMS>
+<generatorID>80FEDED5-03D6-78FC-C64A-4964E04E329D</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="984E443A-BB83-7752-FCC2-ED449C4DCF9D">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicates whether the book copy is available or not.]]></commentInRDBMS>
+<generatorID>804DD8A5-70EE-3FBD-07FE-C3E365BC9FAB</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK_ID" id="60626797-5DFB-943C-66D2-378B73BE06C7">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the book.]]></commentInRDBMS>
+<generatorID>2EF68AC6-C900-611F-81BF-1F8D5BB3D0CF</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E863517E-4245-FC79-26C0-8DB4C8E28C11" referredColumn="045DB9F0-8BDA-695D-2ED8-A44F74D3CF07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCF51658-C20B-2AC2-A1DC-20C111F6B805" name="HZS_BOOK_COPY_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>57C1ECD1-3AC3-8D36-D1E1-9C8838539A1E</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8C8CD00-E0C5-E0D3-F1D0-1D69930DC973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED02FF11-C0DD-7EE1-EC4A-79D508A266C3" name="HZS_BOOK_COPY_HZS_BOOK_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>B9981CD9-163F-878D-688A-61B1AFD8F7E9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60626797-5DFB-943C-66D2-378B73BE06C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

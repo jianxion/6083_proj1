@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6FB0E0F-13DB-D372-1F1F-EE296AB17DF8" containerWithKeyObject="5DA7BE05-4892-854B-67BC-B3BE98119E7B" localFKIndex="725C6D7C-F71C-B66D-4F32-16BB96996572" name="HZS_SEMINAR_HZS_EVENT_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>E62EA2C9-CA09-B2EC-E3E9-D7DA0DB1715F</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<referredTableLongName>HZS_EVENT</referredTableLongName>
+<arc>B757E45D-684B-21E9-5241-4DF26527D7F5</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B039244-5B73-C26C-4207-16A474D3552A</referredTableID>
+<keyObject>38F2644B-A873-22B7-B5EC-8A453CC52CD0</keyObject>
+<referredKeyID>38F2644B-A873-22B7-B5EC-8A453CC52CD0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EVENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>S</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

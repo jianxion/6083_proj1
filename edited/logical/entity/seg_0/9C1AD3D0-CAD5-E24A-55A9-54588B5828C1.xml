@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C1AD3D0-CAD5-E24A-55A9-54588B5828C1" name="HZS_SEMINAR_SPONSOR">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>A5E7C21B-B833-FB72-6E8C-BA454DEF6479</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AMOUNT" id="F3BD614B-DEAF-B9CC-9BCF-2F0C82799744">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The amount sponsored for a seminar.]]></commentInRDBMS>
+<generatorID>A4158550-73EF-4677-1E96-3FA86C2B0564</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPONSOR_ID1" id="C642F6D9-13F6-EEBE-E294-2AC9EAB9FF5A">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-27 16:39:42 UTC</createdTime>
+<generatorID>61119A5D-25DF-B95C-C6B8-22EA0E612EC2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<referedAttribute>6F0B7D7B-E262-A9BD-E9E4-D060D5C2CFB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVENT_ID" id="7A142CEE-299F-E817-14AF-92C395949966">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-27 16:43:16 UTC</createdTime>
+<generatorID>19F39426-89E6-68E5-FDD8-AEF074DECC2A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<referedAttribute>FE6EEA71-C1B4-D364-C0E5-5A8FFAAA3382</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

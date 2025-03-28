@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4107D223-AFC5-AB4A-A72E-780811952E92" name="HZS_SEMINAR_SPONSOR">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>9C1AD3D0-CAD5-E24A-55A9-54588B5828C1</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPONSOR_ID" id="AC4E3A34-6EEB-E322-32E0-46144C2B3A8E">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-26 23:22:16 UTC</createdTime>
+<generatorID>2F2B64C0-912C-814B-E579-D31007D17B3D</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A32913F-586B-A6FB-6F8A-ABF000C9A4FD" referredColumn="0C4AAF8C-DB2B-9F33-B86E-EA3B501CAA85"/>
+</associations>
+</Column>
+<Column name="EVENT_ID" id="86F2F775-7C84-6AA4-3634-00EB3C368652">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-26 23:22:16 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95F7D6B9-68A9-1E1E-86A0-B074AB7B9002" referredColumn="ADC2DF56-D236-529C-9311-3E5B06FEA9BB"/>
+</associations>
+</Column>
+<Column name="AMOUNT" id="965D736B-F740-9769-B81F-94ECBDDF4DC1">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[The amount sponsored for a seminar.]]></commentInRDBMS>
+<generatorID>F3BD614B-DEAF-B9CC-9BCF-2F0C82799744</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50CA74A8-C8BA-E67D-E38A-274F8245D0C1" name="HZS_SEMINAR_SPONSOR_PK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>7E08993D-26C4-7D34-9599-14ED10A7571A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F2F775-7C84-6AA4-3634-00EB3C368652"/>
+<colUsage columnID="AC4E3A34-6EEB-E322-32E0-46144C2B3A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68498C9D-402E-77ED-6102-F75014D535CE" name="SPONSOR_SEMINAR_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>2DA96BAE-38DA-0C7E-E530-72BDAEF37D13</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F2F775-7C84-6AA4-3634-00EB3C368652"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB5C04A7-E951-ADD0-ECEC-887A471F1397" name="SEMINAR_SPONSOR_SPONSOR_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>61119A5D-25DF-B95C-C6B8-22EA0E612EC2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC4E3A34-6EEB-E322-32E0-46144C2B3A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FH_ROOM_RESERVATION_FH_CUSTOMER_FK" directorySegmentName="seg_0" id="80C671C1-33B6-9EFF-41E5-32F35A32A16C">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>21EA88DF-71AD-5382-FBAA-2B20E1E2A37F</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<sourcePk>BA861CCE-D7FB-8C7E-95A7-B1BB896BD573</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>330E38A1-3FEA-7DBB-F965-720793D5DE20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98024C16-F245-C45E-F51D-DB894E386103</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

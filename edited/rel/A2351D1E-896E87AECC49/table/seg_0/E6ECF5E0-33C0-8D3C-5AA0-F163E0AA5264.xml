@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6ECF5E0-33C0-8D3C-5AA0-F163E0AA5264" name="HZS_PAYMENT">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>64E9E230-0ADB-0966-84E2-789C8B5047D0</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAYMENT_ID" id="ABF808A6-4A58-6524-BA0E-4FC66D69B1BD">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the payment transaction.]]></commentInRDBMS>
+<generatorID>4DEBF9D4-C73D-D993-A163-7D86601E9A27</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_DATE" id="E66AFC53-EB38-56E5-F25B-450A1B0E9C61">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date when the payment was made.]]></commentInRDBMS>
+<generatorID>3C26FC5A-40D6-E21F-2522-F17B119E081F</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHOD" id="D2391551-48EE-A975-A9EB-48DECED6E10A">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment method used (Cash, Credit, Debit, PayPal).]]></commentInRDBMS>
+<generatorID>8F2EA5FD-538A-A4BE-C9E9-D4E1E0EA76AA</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_HOLDER_L_NAME" id="05C3A398-829A-B890-EF5B-01AF98E0BF64">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the cardholder.]]></commentInRDBMS>
+<generatorID>75F31EF9-F880-E384-B9A3-C4FF87ECE972</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_HOLDER_F_NAME" id="4786DFEE-A05C-5AB0-BBAD-DF208B55C713">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the cardholder.]]></commentInRDBMS>
+<generatorID>920A8CCE-BA80-10E4-916A-24DDB999B1CA</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="23BBF549-2EE8-7FC6-97EF-12ADFCBBF631">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The amount paid in the transaction.]]></commentInRDBMS>
+<generatorID>04AA4FD4-DD5E-370D-82CF-DF7543198107</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICE_ID" id="1BF13AFC-001A-EF90-C758-2963061B4EF1">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the invoice.]]></commentInRDBMS>
+<generatorID>CBAF5AC6-54FB-054A-20EA-83548E6B283D</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1B98F52-7B0C-7B0E-CF97-7BD6C1AC4556" referredColumn="39C1B052-40F8-2359-8D66-858C2849C76A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE0C3212-B159-62BF-2119-AA4147D94A98" name="HZS_PAYMENT_PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>1B9E3C92-63E3-4488-75AA-51EFEBA01F95</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF808A6-4A58-6524-BA0E-4FC66D69B1BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA3F99C5-8269-6752-8FC2-D29F38E436FD" name="HZS_PAYMENT_HZS_INVOICE_FK">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-25 16:32:54 UTC</createdTime>
+<generatorID>F6F7B96B-8840-3F15-4651-003E97F929F9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BF13AFC-001A-EF90-C758-2963061B4EF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

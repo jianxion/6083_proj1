@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="95F7D6B9-68A9-1E1E-86A0-B074AB7B9002" containerWithKeyObject="4107D223-AFC5-AB4A-A72E-780811952E92" localFKIndex="68498C9D-402E-77ED-6102-F75014D535CE" name="SPONSOR_SEMINAR_FK">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-25 19:13:11 UTC</createdTime>
+<generatorID>2DA96BAE-38DA-0C7E-E530-72BDAEF37D13</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<referredTableLongName>HZS_SEMINAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5DA7BE05-4892-854B-67BC-B3BE98119E7B</referredTableID>
+<keyObject>BEBE5FBA-F623-2D95-BF1A-60AE1EC0C2CB</keyObject>
+<referredKeyID>BEBE5FBA-F623-2D95-BF1A-60AE1EC0C2CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EVENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B865AE5-0311-4B7E-5DB5-D9C63091EAAF" name="HZS_INVOICE">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>EECD8BE7-B2AE-F47F-1FD8-72A423BD032B</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVOICE_ID" id="39C1B052-40F8-2359-8D66-858C2849C76A">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the invoice.]]></commentInRDBMS>
+<generatorID>5E3B307E-36E9-080A-1AD1-53BDB259716C</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICE_DATE" id="078B3704-1683-A511-8F74-B758B384CE5D">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date when the invoice was issued.]]></commentInRDBMS>
+<generatorID>63C62E07-0BE3-AD49-0C1F-539AF31D41F7</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOIC__AMOUNT" id="D403A1E7-CE8A-3CD7-CE4B-485653B96D02">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[The total amount to be paid for the rental.]]></commentInRDBMS>
+<generatorID>56C8FC78-1B60-3FD4-351A-8FC272B5A73D</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RENTAL_ID" id="605585CE-AAF8-770B-1370-F82914727AD6">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-28 12:33:44 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86A505E3-7E10-4961-D5D4-A7E01AB362B1" referredColumn="5ED8779D-C136-073B-5FB0-DB7A35CB269B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AB3F344-451D-BECB-B609-970DC944915B" name="HZS_INVOICE_PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:02:14 UTC</createdTime>
+<generatorID>900918C8-D486-933B-2919-7A807540A0CB</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39C1B052-40F8-2359-8D66-858C2849C76A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4695CAC5-685D-7D8B-DC94-C58230A3FA43" name="HZS_INVOICE_HZS_RENTAL_FK">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-28 12:32:56 UTC</createdTime>
+<ownerDesignName>edited</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="605585CE-AAF8-770B-1370-F82914727AD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

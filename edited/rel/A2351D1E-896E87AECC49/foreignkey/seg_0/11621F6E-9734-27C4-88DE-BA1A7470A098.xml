@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11621F6E-9734-27C4-88DE-BA1A7470A098" containerWithKeyObject="63C6323B-A012-2DBD-39B9-4EC23AF1FF47" localFKIndex="398217BB-885A-481B-7238-003F3B5AFC13" name="HZS_RENTAL_HZS_BOOK_COPY_FK">
+<createdBy>jianxiongshen</createdBy>
+<createdTime>2025-03-26 23:22:16 UTC</createdTime>
+<generatorID>366B4216-EB6D-F4D6-5EAC-42A4EACFFC42</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<referredTableLongName>HZS_BOOK_COPY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA774A13-C1F7-DC53-1309-88295D25E97A</referredTableID>
+<keyObject>BCF51658-C20B-2AC2-A1DC-20C111F6B805</keyObject>
+<referredKeyID>BCF51658-C20B-2AC2-A1DC-20C111F6B805</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COPY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

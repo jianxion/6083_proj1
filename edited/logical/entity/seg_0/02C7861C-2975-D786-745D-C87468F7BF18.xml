@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02C7861C-2975-D786-745D-C87468F7BF18" name="HZS_BOOK_COPY">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>8C8D27F9-6A2E-E50C-FBCD-EA0DBA70412E</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COPY_ID" id="80FEDED5-03D6-78FC-C64A-4964E04E329D">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of each book copy.]]></commentInRDBMS>
+<generatorID>32F1C824-7C33-92F2-0941-A15747BB25A2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="804DD8A5-70EE-3FBD-07FE-C3E365BC9FAB">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicates whether the book copy is available or not.]]></commentInRDBMS>
+<generatorID>C54DA5B4-1180-49DE-1F03-05D01AFFBDDF</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOOK_ID" id="2EF68AC6-C900-611F-81BF-1F8D5BB3D0CF">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 23:50:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the book.]]></commentInRDBMS>
+<generatorID>B9981CD9-163F-878D-688A-61B1AFD8F7E9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<referedAttribute>92A999DF-91BC-3165-4427-85764D0058A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RENTAL_ID" id="FECF04B1-82DC-DDFB-E947-6B163EAAE1EE">
+<createdBy>25103</createdBy>
+<createdTime>2025-03-27 16:52:57 UTC</createdTime>
+<generatorID>366B4216-EB6D-F4D6-5EAC-42A4EACFFC42</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<referedAttribute>1E33A7E7-9DBB-3650-3DF1-0C5E892382AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57C1ECD1-3AC3-8D36-D1E1-9C8838539A1E" name="FH BOOK COPY PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>D8FF8CB5-5534-2DC9-EE73-7C626B97D952</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80FEDED5-03D6-78FC-C64A-4964E04E329D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

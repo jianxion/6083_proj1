@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="563D2201-6693-93A2-2709-5A895D4C174F" name="HZS_EXHIBITION_ACCESS">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>147CA54C-1276-17E7-9D75-7078BE52DC36</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REGISTRATION_ID" id="A037C22C-8DEB-DFEF-15E3-CC885A625813">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the access.]]></commentInRDBMS>
+<generatorID>CCBE9D14-A38A-C621-8788-C7BF78783EF1</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER_ID" id="A783E74D-4174-686E-49A3-504CABDC3B0A">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 00:58:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the customer.]]></commentInRDBMS>
+<generatorID>920D00D9-34CF-F577-3D9E-047DD8EF73EF</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D7397CBA-68F1-B8F7-B2CC-8BD1FBFDE72B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1731FD6A-F2F3-2722-0B6A-C09480D0A0B9" name="FH EXHIBITION ATTENDANCE PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>5B28D11B-1DE1-3E4B-0CBF-8B452AB49456</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A037C22C-8DEB-DFEF-15E3-CC885A625813</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

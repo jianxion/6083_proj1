@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98024C16-F245-C45E-F51D-DB894E386103" name="HZS_ROOM_RESERVATION">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>FC1738DE-527D-D702-AD41-E07A69A420B4</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RESERVATION_ID" id="60A40313-909A-4DE4-7F88-6EAF389672A2">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the room reservation.]]></commentInRDBMS>
+<generatorID>8F708E0E-3237-00AD-D2A2-89BD9C8897DD</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOPIC_DESCRIPTION" id="3B35975E-2436-BA43-249A-E4B84D040CB5">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[A brief description of the study topic for the reservation.]]></commentInRDBMS>
+<generatorID>4E77ADD9-7F33-620A-5AEC-17E7C59D4AD2</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE" id="A81510A3-96EC-F9FD-5B7D-C2A46ACE43BE">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date on which the study room is reserved.]]></commentInRDBMS>
+<generatorID>E6C48CD5-5707-96D0-F6A6-82C4D4BED1CA</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START_TIME" id="B3CF9974-31FD-6FEB-D933-C59099FA1248">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The start time of the study room reservation.]]></commentInRDBMS>
+<generatorID>CFF40D17-D488-D000-DCF4-62B2A90F70FD</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END_TIME" id="83721E45-7886-E2BA-4947-11EAAC0F39DC">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The end time of the study room reservation.]]></commentInRDBMS>
+<generatorID>92CCA020-BC61-30B8-4274-D86AC50B38F9</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GROUP_SIZE" id="FF4E1436-500A-1725-D46A-ACC0A71794BE">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[The total number of people in the group reservation.]]></commentInRDBMS>
+<generatorID>182D36E7-DA25-92C0-B826-66401AF4D20A</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER_ID" id="D8AEC321-0993-5E3E-5BD8-2D0A529FFB6E">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 21:24:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the customer.]]></commentInRDBMS>
+<generatorID>80C671C1-33B6-9EFF-41E5-32F35A32A16C</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D7397CBA-68F1-B8F7-B2CC-8BD1FBFDE72B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROOM_ID" id="16230ABF-B4AA-585F-1B89-2FE3E7FE9141">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 00:53:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[This is the unique ID of the room.]]></commentInRDBMS>
+<generatorID>6EBFC011-C786-E3B2-10DD-52F6F15E3369</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>139CB912-A8B0-4B7A-193C-FF7C03F04C3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVATED_L_NAME" id="A2AA5709-145D-4F14-29DA-6358F46917CC">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:15:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name of the person who made the reservation.]]></commentInRDBMS>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVATED_F_NAME" id="E6A71C1A-0B46-9433-3847-488DB5B4F8A7">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-25 01:16:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[First name of the person who made the reservation.]]></commentInRDBMS>
+<ownerDesignName>edited</ownerDesignName>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA906548-8980-C51F-6B44-FEA8D2D8EF38" name="FH ROOM RESERVATION PK">
+<createdBy>oceanwhale</createdBy>
+<createdTime>2025-03-24 18:00:25 UTC</createdTime>
+<generatorID>F9A4C3D4-535E-73AD-9A19-FB3D998DD5F8</generatorID>
+<ownerDesignName>edited</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A2351D1E-94DF-B2D1-2262-896E87AECC49" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60A40313-909A-4DE4-7F88-6EAF389672A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
